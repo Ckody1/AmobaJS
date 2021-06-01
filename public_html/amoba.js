@@ -90,7 +90,6 @@ function atvizsgalas(){
                 if (index < 9) {
                     if ($("article td").eq(index).attr("value") === jel) {
                         db++;
-                        console.log("fos");
                     } else {
                         kilep = true;
                     }
