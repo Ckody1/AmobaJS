@@ -10,19 +10,22 @@ main{
 article, section, header, footer{
     border: 1px solid black;
     padding: 5px;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 
 td{
     border: 1px solid black;
-    height: 140px;
+    height: 200px;
+    min-width: 200px;
+    text-align: center;
+    font-size: 50px;
 }
 
 table{
-    width: 400px;
+    width: 600px;
     border: 1px solid black;
     margin: auto;
 }
-h1, footer{
+h1, h2, footer{
     text-align: center;
 }
