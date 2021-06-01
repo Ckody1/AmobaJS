@@ -1,9 +1,13 @@
 @charset "UTF-8";
 
+body{
+    background: lightblue;
+}
+
 main{
     max-width: 800px;
     margin: auto;
-    
+    background: white;
 }
 
 
@@ -11,6 +15,7 @@ article, section, header, footer{
     border: 1px solid black;
     padding: 5px;
     border-radius: 5px;
+    background: cyan;
 }
 
 td{
@@ -19,6 +24,7 @@ td{
     min-width: 200px;
     text-align: center;
     font-size: 50px;
+    background: white;
 }
 
 table{
@@ -28,4 +34,7 @@ table{
 }
 h1, h2, footer{
     text-align: center;
+}
+section{
+    background: white;
 }
